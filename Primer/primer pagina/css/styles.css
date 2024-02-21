@@ -1,0 +1,94 @@
+
+body {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(235, 192, 135, 0.623);
+}
+
+a{
+    color: black;
+    padding: 20px;
+}
+
+nav{
+    background-color: rgba(127, 255, 212, 0.479);
+    padding: 20px;
+    
+}
+:hover >a:first-child{
+    color: violet;
+}
+nav h1{
+    color: black;
+    margin-left: 600px;
+    font-style: italic;
+}
+.galeria2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+    overflow-y: auto;
+    width: 420px;
+    height: 350px;
+}
+
+.card{
+    margin-right: 10px;
+    position: relative;
+}
+
+.cuerpo-card{
+    position: absolute;
+    bottom: 0;
+    padding:10px;
+    background-color: black;
+    color: aliceblue;
+}
+.card img{
+    width: 200px;
+    object-fit: cover;
+    height: 250px;
+}
+.cuerpo-card p{
+    margin: 0;
+}
+
+
+.ejemplar{
+    color: black;
+    margin-left: 600px;
+    font-style: italic;
+  }
+
+footer a:nth-child(1) button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #1877f2;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer a:nth-child(1) button:hover {
+    background-color: #4267B2; 
+  }
+  
+  
+  footer a:nth-child(2) button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #bc2a8d; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer a:nth-child(2) button:hover {
+    background-color: #e1306c; 
+  }
+
+  
+
